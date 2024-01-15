@@ -1,5 +1,5 @@
 const config = {
-  difficulty: '0x9999',
+  difficulty: '0x99999',
   tick: 'rBNB',
   walletTablePath: 'wallets.csv',
   rpcUrl: 'https://binance.nodereal.io',
