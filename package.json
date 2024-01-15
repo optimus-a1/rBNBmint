@@ -1,0 +1,20 @@
+{
+  "name": "rbnb-mine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start ecosystem.config.js",
+    "gen-wallet" : "node ./walletGenerater.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "5.7.2",
+    "fast-csv": "^5.0.0",
+    "node-fetch": "2.7.0",
+    "bip39": "^3.0.4"
+  }
+}
